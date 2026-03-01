@@ -332,7 +332,7 @@ async function initializeBot() {
     });
 
     client.logger.warn("Bot", "Startup", "Logging in...");
-    await client.login(config.main.token);
+    await client.login(process.env.DISCORD_TOKEN);
 
     if (config.extra.enable) {
         ["aliases", "commands"].forEach((x) => (extrac[x] = new Collection()));
