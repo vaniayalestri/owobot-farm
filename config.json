@@ -2,19 +2,19 @@
     "firstrun": "true",
     "prefix": "!",
     "main": {
-        "token": "",
-        "userid": "",
-        "commandschannelid": "",
-        "huntbotchannelid": "",
-        "owodmchannelid": "",
-        "gamblechannelid": "",
-        "autoquestchannelid": "",
+        "token": "${DISCORD_TOKEN}",
+        "userid": "1414906598895124601",
+        "commandschannelid": "1460564533218381949",
+        "huntbotchannelid": "1464541522346381457",
+        "owodmchannelid": "1460541801218703391",
+        "gamblechannelid": "1464541476615884912",
+        "autoquestchannelid": "1464541574766792724",
         "autostart": false,
 
         "commands": {
             "hunt": true,
             "battle": true,
-            "pray": false,
+            "pray": true,
             "curse": true,
             "huntbot": {
                 "enable": true,
@@ -23,8 +23,8 @@
                 "upgradetype": "duration"
             },
             "gamble": {
-                "coinflip": true,
-                "slot": true
+                "coinflip": false,
+                "slot": false
             },
             "animals": false,
             "inventory": true,
@@ -35,7 +35,7 @@
     },
     "extra": {
         "enable": false,
-        "token": "",
+        "token": "${DISCORD_TOKEN}",
         "userid": "",
         "commandschannelid": "",
         "huntbotchannelid": "",
@@ -68,7 +68,7 @@
         "maximum_gem_rarity": "Mythical"
     },
     "settings": {
-        "owoprefix": "owo",
+        "owoprefix": "w",
         "discordrpc": false,
         "chatfeedback": true,
         "autophrases": true,
@@ -91,9 +91,10 @@
                 "gems": true
             }
         },
+
         "gamble": {
             "coinflip": {
-                "default_amount": 1000,
+                "default_amount": 5000,
                 "max_amount": 250000,
                 "multiplier": 1.0
             },
@@ -136,6 +137,7 @@
             }
         }
     },
+
     "animals": {
         "type": {
             "sell": false,
@@ -158,32 +160,16 @@
             "hidden": false
         }
     },
+
     "interval": {
-        "hunt": {
-            "max": 32000,
-            "min": 16000
-        },
-        "battle": {
-            "max": 32000,
-            "min": 16000
-        },
-        "pray": {
-            "max": 332000,
-            "min": 316000
-        },
-        "coinflip": {
-            "max": 32000,
-            "min": 16000
-        },
-        "slot": {
-            "max": 32000,
-            "min": 16000
-        },
-        "animals": {
-            "max": 661000,
-            "min": 610000
-        }
+        "hunt": { "max": 32000, "min": 16000 },
+        "battle": { "max": 32000, "min": 16000 },
+        "pray": { "max": 332000, "min": 316000 },
+        "coinflip": { "max": 32000, "min": 16000 },
+        "slot": { "max": 32000, "min": 16000 },
+        "animals": { "max": 661000, "min": 610000 }
     },
+
     "socket": {
         "expressport": 1243
     }
