@@ -1,0 +1,670 @@
+[23.48.36] [I] Bot >> Main > Updater > Checking for updates...
+[23.48.36] [E] Bot >> Main > Updater > Update check failed: Failed to fetch version: Request failed with status code 404
+[23.48.36] [I] Bot >> Main > Config > Verifying Config... Please wait...
+[23.48.36] [E] Bot >> Main > Config > Config conflict: Curse and pray cannot be turn on at the same time! By default pray will be used.
+[23.48.36] [I] Bot >> Main > Config > Config verified, things seem to be okey :3
+[23.48.36] [D] Bot >> Main > Debug > OwO Farm Bot Stable - Debug log
+Basic information
+-------------------------
+Version: 0.0.9.4
+Platform: win32 (using process.platform)
+-------------------------
+
+Config
+-------------------------
+Main commands:
+  Hunt: true - type: boolean
+  Battle: true - type: boolean
+  Pray: true - type: boolean
+  Curse: false - type: boolean
+  Huntbot: 
+    Enable: true - type: boolean
+    Max Time: 10 - type: number
+    Upgrade: false - type: boolean
+    Upgrade Type: duration - type: string
+  Gamble: 
+    Coinflip: false - type: boolean
+    Slot: false - type: boolean
+  Animals: false - type: boolean
+  Inventory: true - type: boolean
+  Checklist: true - type: boolean
+  Autoquest: true - type: boolean
+  Gem rarity: Mythical - type: string
+
+Extra commands:
+  Hunt: true - type: boolean
+  Battle: true - type: boolean
+  Pray: false - type: boolean
+  Curse: true - type: boolean
+  Huntbot: 
+    Enable: true - type: boolean
+    Max Time: 10 - type: number
+    Upgrade: false - type: boolean
+    Upgrade Type: duration - type: string
+  Gamble: 
+    Coinflip: true - type: boolean
+    Slot: true - type: boolean
+  Animals: false - type: boolean
+  Inventory: true - type: boolean
+  Checklist: true - type: boolean
+  Autoquest: true - type: boolean
+  To Main: true - type: boolean
+  Gem rarity: Mythical - type: string
+
+Elaina: true - type: boolean
+Join giveaways: false - type: boolean
+
+Checklist:
+  Daily: true - type: boolean
+  Cookie: false - type: boolean
+  Vote: false - type: boolean
+
+Inventory:
+  Use:
+    Lootbox: true - type: boolean
+    Fabled Lootbox: false - type: boolean
+    Crate: true - type: boolean
+    Gems: true - type: boolean
+
+Gamble:
+  Coinflip:
+    Default Amount: 5000 - type: number
+    Max Amount: 250000 - type: number
+    Multiplier: 1 - type: number
+  Slot:
+    Default Amount: 1000 - type: number
+    Max Amount: 250000 - type: number
+    Multiplier: 1 - type: number
+
+Safety:
+  Auto Pause: true - type: boolean
+  Pause After: 30 - type: number
+  Pause For: 5 - type: number
+
+Captcha:
+  Auto Solve: true - type: boolean
+  Alert Type:
+    Webhook: true - type: boolean
+    Desktop:
+      Force: true - type: boolean
+      Notification: true - type: boolean
+      Prompt: true - type: boolean
+    Termux:
+      Notification: true - type: boolean
+      Vibration: true - type: boolean
+      Vibration Time: 5000 - type: number
+      Toast: true - type: boolean
+
+Animals:
+  Sell: false - type: boolean
+  Sacrifice: false - type: boolean
+
+Interval:
+  Hunt: 16000 - 32000
+  Type: number - number
+
+  Battle: 16000 - 32000
+  Type: number - number
+
+  Pray: 316000 - 332000
+  Type: number - number
+
+  Coinflip: 16000 - 32000
+  Type: number - number
+
+  Slot: 16000 - 32000
+  Type: number - number
+
+  Animals: 610000 - 661000
+  Type: number - number
+
+  Checklist: undefined - type: undefined
+-------------------------
+
+[23.48.36] [W] Bot >> Main > Startup > Logging in...
+[23.48.38] [I] Bot >> Main > Startup > [31msinuok__25434[39m is ready!
+[23.48.38] [I] WebUI >> Main > Startup > WebUI started on http://localhost:1243
+[23.48.38] [W] Bot >> Main > Help > Use "!start" to start the bot, "!resume" to resume, and "!pause" to pause.
+[23.48.52] [I] Farm >> Main > Checklist > Paused: true! Reading checklist
+[23.48.53] [W] Farm >> Main > Quest > Waiting
+[23.48.53] [I] Farm >> Main > Questing > Getting quest...
+[23.48.53] [I] Farm >> Main > Hunt > Total Hunt: 1
+[23.48.54] [W] Farm >> Main > Hunt > Missing gems: gem4,star
+[23.48.56] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[23.48.56] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.48.57] [I] Farm >> Main > Quest > No active quest found!
+[23.48.58] [I] Farm >> Main > Checklist > Paused: false
+[23.49.00] [I] Farm >> Main > Checklist - Daily > Daily Claimed
+[23.49.03] [I] Farm >> Main > Use > lootbox
+[23.49.14] [I] Farm >> Main > Inventory > Paused: false
+[23.49.19] [I] Farm >> Main > Hunt > Total Hunt: 2
+[23.49.20] [I] Farm >> Main > Hunt > Event not found
+[23.49.20] [W] Farm >> Main > Hunt > Missing gems: gem1,gem4
+[23.49.22] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[23.49.22] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.49.26] [I] Farm >> Main > Huntbot > Getting huntbot...
+[23.49.29] [I] Farm >> Main > Use > wc
+[23.49.37] [I] Farm >> Main > Use > use 51 
+[23.49.37] [I] Farm >> Main > Huntbot > Solving captcha...
+[23.49.39] [I] Farm >> Main > Huntbot > Captcha solve completed. Starting huntbot...
+[23.49.42] [I] Farm >> Main > Huntbot > Huntbot has started to hunt. It will restart in 1745000 milliseconds
+[23.49.45] [I] Farm >> Main > Inventory > Paused: false
+[23.49.46] [I] Farm >> Main > Battle > Total Battle: 1
+[23.49.58] [I] Farm >> Main > Hunt > Total Hunt: 3
+[23.49.59] [I] Farm >> Main > Pray > Total prayed time: 1
+[23.49.59] [W] Farm >> Main > Hunt > Missing gems: gem4
+[23.50.01] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.50.02] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[23.50.08] [I] Farm >> Main > Use > wc
+[23.50.19] [I] Farm >> Main > Inventory > Paused: false
+[23.50.32] [I] Farm >> Main > Battle > Total Battle: 2
+[23.50.35] [I] Farm >> Main > Hunt > Total Hunt: 4
+[23.50.36] [W] Farm >> Main > Hunt > Missing gems: gem4
+[23.50.38] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[23.50.38] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.50.47] [I] Farm >> Main > Inventory > Paused: false
+[23.50.56] [I] Farm >> Main > Battle > Total Battle: 3
+[23.51.03] [I] Farm >> Main > Hunt > Total Hunt: 5
+[23.51.04] [W] Farm >> Main > Hunt > Missing gems: gem4
+[23.51.06] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.51.06] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[23.51.15] [I] Farm >> Main > Inventory > Paused: false
+[23.51.25] [I] Farm >> Main > Battle > Total Battle: 4
+[23.51.32] [I] Farm >> Main > Hunt > Total Hunt: 6
+[23.51.33] [W] Farm >> Main > Hunt > Missing gems: gem4
+[23.51.35] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[23.51.35] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.51.44] [I] Farm >> Main > Inventory > Paused: false
+[23.51.55] [I] Farm >> Main > Hunt > Total Hunt: 7
+[23.51.56] [W] Farm >> Main > Hunt > Missing gems: gem4
+[23.51.57] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.51.58] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[23.51.59] [I] Farm >> Main > Battle > Total Battle: 5
+[23.52.06] [I] Farm >> Main > Inventory > Paused: false
+[23.52.21] [I] Farm >> Main > Battle > Total Battle: 6
+[23.52.29] [I] Farm >> Main > Hunt > Total Hunt: 8
+[23.52.30] [W] Farm >> Main > Hunt > Missing gems: gem4
+[23.52.32] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.52.33] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[23.52.42] [I] Farm >> Main > Inventory > Paused: false
+[23.52.49] [I] Farm >> Main > Battle > Total Battle: 7
+[23.52.56] [I] Farm >> Main > Hunt > Total Hunt: 9
+[23.52.56] [W] Farm >> Main > Hunt > Missing gems: gem4
+[23.52.58] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.52.58] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[23.53.07] [I] Farm >> Main > Inventory > Paused: false
+[23.53.21] [I] Farm >> Main > Battle > Total Battle: 8
+[23.53.30] [I] Farm >> Main > Hunt > Total Hunt: 10
+[23.53.31] [W] Farm >> Main > Hunt > Missing gems: gem4
+[23.53.33] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[23.53.33] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.53.38] [W] Bot >> Main > Cache > Cleared oldest 85% of message cache for [sinuok__25434].
+[23.53.42] [I] Farm >> Main > Inventory > Paused: false
+[23.53.46] [I] Farm >> Main > Battle > Total Battle: 9
+[23.54.01] [I] Farm >> Main > Hunt > Total Hunt: 11
+[23.54.02] [W] Farm >> Main > Hunt > Missing gems: gem4
+[23.54.04] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.54.04] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[23.54.13] [I] Farm >> Main > Inventory > Paused: false
+[23.54.22] [I] Farm >> Main > Hunt > Total Hunt: 12
+[23.54.23] [W] Farm >> Main > Hunt > Missing gems: gem4
+[23.54.25] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.54.25] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[23.54.26] [I] Farm >> Main > Battle > Total Battle: 10
+[23.54.35] [I] Farm >> Main > Inventory > Paused: false
+[23.54.53] [I] Farm >> Main > Hunt > Total Hunt: 13
+[23.54.54] [W] Farm >> Main > Hunt > Missing gems: gem4
+[23.54.55] [I] Farm >> Main > Battle > Total Battle: 11
+[23.54.56] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.54.56] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[23.55.04] [I] Farm >> Main > Inventory > Paused: false
+[23.55.16] [I] Farm >> Main > Battle > Total Battle: 12
+[23.55.23] [I] Farm >> Main > Pray > Total prayed time: 2
+[23.55.25] [I] Farm >> Main > Hunt > Total Hunt: 14
+[23.55.26] [W] Farm >> Main > Hunt > Missing gems: gem4
+[23.55.28] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.55.28] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[23.55.37] [I] Farm >> Main > Inventory > Paused: false
+[23.55.53] [I] Farm >> Main > Battle > Total Battle: 13
+[23.55.55] [I] Farm >> Main > Hunt > Total Hunt: 15
+[23.55.56] [W] Farm >> Main > Hunt > Missing gems: gem4
+[23.55.58] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.55.58] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[23.56.04] [I] Farm >> Main > Use > lootbox
+[23.56.15] [I] Farm >> Main > Inventory > Paused: false
+[23.56.17] [I] Farm >> Main > Battle > Total Battle: 14
+[23.56.26] [I] Farm >> Main > Hunt > Total Hunt: 16
+[23.56.27] [W] Farm >> Main > Hunt > Missing gems: gem4
+[23.56.29] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.56.29] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[23.56.35] [I] Farm >> Main > Use > use 74 
+[23.56.43] [I] Farm >> Main > Inventory > Paused: false
+[23.56.45] [I] Farm >> Main > Hunt > Total Hunt: 17
+[23.56.48] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.56.49] [I] Farm >> Main > Battle > Total Battle: 15
+[23.57.19] [I] Farm >> Main > Hunt > Total Hunt: 18
+[23.57.21] [I] Farm >> Main > Battle > Total Battle: 16
+[23.57.22] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.57.40] [I] Farm >> Main > Battle > Total Battle: 17
+[23.57.45] [I] Farm >> Main > Hunt > Total Hunt: 19
+[23.57.47] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.58.05] [I] Farm >> Main > Hunt > Total Hunt: 20
+[23.58.08] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.58.11] [I] Farm >> Main > Battle > Total Battle: 18
+[23.58.34] [I] Farm >> Main > Battle > Total Battle: 19
+[23.58.38] [W] Bot >> Main > Cache > Cleared oldest 85% of message cache for [sinuok__25434].
+[23.58.39] [I] Farm >> Main > Hunt > Total Hunt: 21
+[23.58.43] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.58.52] [I] Farm >> Main > Battle > Total Battle: 20
+[23.59.14] [I] Farm >> Main > Hunt > Total Hunt: 22
+[23.59.18] [I] Farm >> Main > Battle > Total Battle: 21
+[23.59.27] [E] Farm >> Main > Hunt > Couldn't retrieve hunting result!
+[23.59.28] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.59.38] [I] Farm >> Main > Battle > Total Battle: 22
+[23.59.50] [I] Farm >> Main > Hunt > Total Hunt: 23
+[23.59.53] [I] Farm >> Main > Phrases > Successfuly sent.
+[23.59.54] [I] Farm >> Main > Battle > Total Battle: 23
+[00.00.14] [I] Farm >> Main > Hunt > Total Hunt: 24
+[00.00.17] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.00.25] [I] Farm >> Main > Battle > Total Battle: 24
+[00.00.46] [I] Farm >> Main > Hunt > Total Hunt: 25
+[00.00.49] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.00.52] [I] Farm >> Main > Pray > Total prayed time: 3
+[00.00.55] [I] Farm >> Main > Battle > Total Battle: 25
+[00.01.06] [I] Farm >> Main > Hunt > Total Hunt: 26
+[00.01.08] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.01.23] [I] Farm >> Main > Battle > Total Battle: 26
+[00.01.35] [I] Farm >> Main > Hunt > Total Hunt: 27
+[00.01.39] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.01.47] [I] Farm >> Main > Battle > Total Battle: 27
+[00.02.03] [I] Farm >> Main > Hunt > Total Hunt: 28
+[00.02.04] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.02.06] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.02.06] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.02.15] [I] Farm >> Main > Inventory > Paused: false
+[00.02.25] [I] Farm >> Main > Hunt > Total Hunt: 29
+[00.02.26] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.02.27] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.02.28] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.02.36] [I] Farm >> Main > Inventory > Paused: false
+[00.02.46] [I] Farm >> Main > Battle > Total Battle: 28
+[00.02.54] [I] Farm >> Main > Hunt > Total Hunt: 30
+[00.02.55] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.02.57] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.02.57] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.03.05] [I] Farm >> Main > Inventory > Paused: false
+[00.03.10] [I] Farm >> Main > Battle > Total Battle: 29
+[00.03.18] [I] Farm >> Main > Hunt > Total Hunt: 31
+[00.03.19] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.03.21] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.03.21] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.03.30] [I] Farm >> Main > Inventory > Paused: false
+[00.03.38] [I] Farm >> Main > Hunt > Total Hunt: 32
+[00.03.38] [W] Bot >> Main > Cache > Cleared oldest 85% of message cache for [sinuok__25434].
+[00.03.39] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.03.41] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.03.42] [I] Farm >> Main > Battle > Total Battle: 30
+[00.03.42] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.03.52] [I] Farm >> Main > Inventory > Paused: false
+[00.04.05] [I] Farm >> Main > Hunt > Total Hunt: 33
+[00.04.06] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.04.08] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.04.08] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.04.17] [I] Farm >> Main > Inventory > Paused: false
+[00.04.29] [I] Farm >> Main > Battle > Total Battle: 31
+[00.04.34] [I] Farm >> Main > Hunt > Total Hunt: 34
+[00.04.35] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.04.37] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.04.37] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.04.46] [I] Farm >> Main > Inventory > Paused: false
+[00.05.03] [I] Farm >> Main > Battle > Total Battle: 32
+[00.05.09] [I] Farm >> Main > Hunt > Total Hunt: 35
+[00.05.10] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.05.12] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.05.12] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.05.21] [I] Farm >> Main > Inventory > Paused: false
+[00.05.25] [I] Farm >> Main > Battle > Total Battle: 33
+[00.05.31] [I] Farm >> Main > Hunt > Total Hunt: 36
+[00.05.31] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.05.33] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.05.34] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.05.42] [I] Farm >> Main > Inventory > Paused: false
+[00.05.45] [I] Farm >> Main > Battle > Total Battle: 34
+[00.05.50] [I] Farm >> Main > Hunt > Total Hunt: 37
+[00.05.50] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.05.52] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.05.52] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.06.01] [I] Farm >> Main > Inventory > Paused: false
+[00.06.14] [I] Farm >> Main > Battle > Total Battle: 35
+[00.06.17] [I] Farm >> Main > Pray > Total prayed time: 4
+[00.06.19] [I] Farm >> Main > Hunt > Total Hunt: 38
+[00.06.20] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.06.22] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.06.22] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.06.31] [I] Farm >> Main > Inventory > Paused: false
+[00.06.39] [I] Farm >> Main > Battle > Total Battle: 36
+[00.06.50] [I] Farm >> Main > Hunt > Total Hunt: 39
+[00.06.51] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.06.53] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.06.53] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.07.02] [I] Farm >> Main > Inventory > Paused: false
+[00.07.08] [I] Farm >> Main > Battle > Total Battle: 37
+[00.07.19] [I] Farm >> Main > Hunt > Total Hunt: 40
+[00.07.20] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.07.22] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.07.22] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.07.31] [I] Farm >> Main > Inventory > Paused: false
+[00.07.36] [I] Farm >> Main > Battle > Total Battle: 38
+[00.07.48] [I] Farm >> Main > Hunt > Total Hunt: 41
+[00.07.48] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.07.50] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.07.50] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.07.59] [I] Farm >> Main > Inventory > Paused: false
+[00.08.13] [I] Farm >> Main > Battle > Total Battle: 39
+[00.08.15] [I] Farm >> Main > Hunt > Total Hunt: 42
+[00.08.16] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.08.18] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.08.18] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.08.25] [I] Farm >> Main > Use > wc
+[00.08.35] [I] Farm >> Main > Inventory > Paused: false
+[00.08.38] [W] Bot >> Main > Cache > Cleared oldest 85% of message cache for [sinuok__25434].
+[00.08.41] [I] Farm >> Main > Battle > Total Battle: 40
+[00.08.49] [I] Farm >> Main > Hunt > Total Hunt: 43
+[00.08.50] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.08.52] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.08.52] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.09.01] [I] Farm >> Main > Inventory > Paused: false
+[00.09.03] [I] Farm >> Main > Battle > Total Battle: 41
+[00.09.22] [I] Farm >> Main > Hunt > Total Hunt: 44
+[00.09.23] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.09.25] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.09.25] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.09.34] [I] Farm >> Main > Inventory > Paused: false
+[00.09.42] [I] Farm >> Main > Hunt > Total Hunt: 45
+[00.09.43] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.09.45] [I] Farm >> Main > Battle > Total Battle: 42
+[00.09.45] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.09.45] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.09.54] [I] Farm >> Main > Inventory > Paused: false
+[00.10.11] [I] Farm >> Main > Battle > Total Battle: 43
+[00.10.17] [I] Farm >> Main > Hunt > Total Hunt: 46
+[00.10.18] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.10.20] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.10.20] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.10.28] [I] Farm >> Main > Inventory > Paused: false
+[00.10.34] [I] Farm >> Main > Battle > Total Battle: 44
+[00.10.44] [I] Farm >> Main > Hunt > Total Hunt: 47
+[00.10.46] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.10.48] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.10.48] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.10.56] [I] Farm >> Main > Inventory > Paused: false
+[00.11.09] [I] Farm >> Main > Battle > Total Battle: 45
+[00.11.16] [I] Farm >> Main > Hunt > Total Hunt: 48
+[00.11.18] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.11.19] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.11.20] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.11.28] [I] Farm >> Main > Inventory > Paused: false
+[00.11.38] [I] Farm >> Main > Battle > Total Battle: 46
+[00.11.44] [I] Farm >> Main > Pray > Total prayed time: 5
+[00.11.51] [I] Farm >> Main > Hunt > Total Hunt: 49
+[00.11.52] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.11.54] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.11.54] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.12.02] [I] Farm >> Main > Inventory > Paused: false
+[00.12.07] [I] Farm >> Main > Battle > Total Battle: 47
+[00.12.20] [I] Farm >> Main > Hunt > Total Hunt: 50
+[00.12.21] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.12.23] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.12.23] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.12.32] [I] Farm >> Main > Inventory > Paused: false
+[00.12.41] [I] Farm >> Main > Hunt > Total Hunt: 51
+[00.12.42] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.12.44] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.12.44] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.12.44] [I] Farm >> Main > Battle > Total Battle: 48
+[00.12.54] [I] Farm >> Main > Inventory > Paused: false
+[00.13.02] [I] Farm >> Main > Hunt > Total Hunt: 52
+[00.13.03] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.13.05] [I] Farm >> Main > Battle > Total Battle: 49
+[00.13.05] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.13.06] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.13.14] [I] Farm >> Main > Inventory > Paused: false
+[00.13.25] [I] Farm >> Main > Battle > Total Battle: 50
+[00.13.34] [I] Farm >> Main > Hunt > Total Hunt: 53
+[00.13.34] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.13.36] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.13.36] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.13.38] [W] Bot >> Main > Cache > Cleared oldest 85% of message cache for [sinuok__25434].
+[00.13.45] [I] Farm >> Main > Inventory > Paused: false
+[00.13.46] [I] Farm >> Main > Battle > Total Battle: 51
+[00.13.57] [I] Farm >> Main > Hunt > Total Hunt: 54
+[00.13.58] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.14.00] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.14.00] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.14.08] [I] Farm >> Main > Inventory > Paused: false
+[00.14.21] [I] Farm >> Main > Battle > Total Battle: 52
+[00.14.28] [I] Farm >> Main > Hunt > Total Hunt: 55
+[00.14.29] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.14.31] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.14.31] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.14.39] [I] Farm >> Main > Inventory > Paused: false
+[00.14.42] [I] Farm >> Main > Battle > Total Battle: 53
+[00.15.01] [I] Farm >> Main > Hunt > Total Hunt: 56
+[00.15.02] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.15.03] [I] Farm >> Main > Battle > Total Battle: 54
+[00.15.04] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.15.04] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.15.13] [I] Farm >> Main > Inventory > Paused: false
+[00.15.23] [I] Farm >> Main > Battle > Total Battle: 55
+[00.15.27] [I] Farm >> Main > Hunt > Total Hunt: 57
+[00.15.28] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.15.30] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.15.30] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.15.39] [I] Farm >> Main > Inventory > Paused: false
+[00.15.42] [I] Farm >> Main > Battle > Total Battle: 56
+[00.15.58] [I] Farm >> Main > Hunt > Total Hunt: 58
+[00.15.59] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.16.01] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.16.01] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.16.10] [I] Farm >> Main > Inventory > Paused: false
+[00.16.14] [I] Farm >> Main > Battle > Total Battle: 57
+[00.16.23] [I] Farm >> Main > Hunt > Total Hunt: 59
+[00.16.24] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.16.26] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.16.26] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.16.35] [I] Farm >> Main > Inventory > Paused: false
+[00.16.48] [I] Farm >> Main > Battle > Total Battle: 58
+[00.16.55] [I] Farm >> Main > Hunt > Total Hunt: 60
+[00.16.55] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.16.57] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.16.57] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.17.07] [I] Farm >> Main > Inventory > Paused: false
+[00.17.09] [I] Farm >> Main > Battle > Total Battle: 59
+[00.17.15] [I] Farm >> Main > Hunt > Total Hunt: 61
+[00.17.16] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.17.18] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.17.19] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.17.29] [I] Farm >> Main > Inventory > Paused: false
+[00.17.36] [I] Farm >> Main > Pray > Total prayed time: 6
+[00.17.42] [I] Farm >> Main > Hunt > Total Hunt: 62
+[00.17.43] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.17.45] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.17.45] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.17.46] [I] Farm >> Main > Battle > Total Battle: 60
+[00.17.56] [I] Farm >> Main > Inventory > Paused: false
+[00.18.08] [I] Farm >> Main > Battle > Total Battle: 61
+[00.18.13] [I] Farm >> Main > Hunt > Total Hunt: 63
+[00.18.14] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.18.16] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.18.16] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.18.30] [E] Farm >> Main > inventory > Couldn't retrieve inventory
+[00.18.37] [I] Farm >> Main > Hunt > Total Hunt: 64
+[00.18.38] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.18.38] [W] Bot >> Main > Cache > Cleared oldest 85% of message cache for [sinuok__25434].
+[00.18.39] [I] Farm >> Main > Battle > Total Battle: 62
+[00.18.40] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.18.40] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.18.46] [I] Farm >> Main > Use > crate
+[00.18.47] [I] Farm >> Main > Huntbot > Getting huntbot...
+[00.18.57] [I] Farm >> Main > Huntbot > Solving captcha...
+[00.18.57] [I] Farm >> Main > Inventory > Paused: false
+[00.18.58] [I] Farm >> Main > Huntbot > Captcha solve completed. Starting huntbot...
+[00.19.01] [I] Farm >> Main > Huntbot > Huntbot has started to hunt. It will restart in 1745000 milliseconds
+[00.19.01] [I] Farm >> Main > Battle > Total Battle: 63
+[00.19.07] [I] Farm >> Main > Hunt > Total Hunt: 65
+[00.19.08] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.19.10] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.19.10] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.19.19] [I] Farm >> Main > Inventory > Paused: false
+[00.19.27] [W] Bot >> Main > Safety > Safety paused to reduce bot rate.
+[00.23.38] [W] Bot >> Main > Cache > Cleared oldest 85% of message cache for [sinuok__25434].
+[00.24.27] [W] Bot >> Main > Safety > Resuming after a safety pause.
+[00.24.29] [I] Farm >> Main > Pray > Total prayed time: 7
+[00.24.32] [I] Farm >> Main > Hunt > Total Hunt: 66
+[00.24.35] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.24.36] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.24.37] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.24.45] [I] Farm >> Main > Inventory > Paused: false
+[00.24.56] [I] Farm >> Main > Battle > Total Battle: 64
+[00.25.00] [I] Farm >> Main > Hunt > Total Hunt: 67
+[00.25.01] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.25.03] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.25.03] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.25.11] [I] Farm >> Main > Inventory > Paused: false
+[00.25.14] [I] Farm >> Main > Battle > Total Battle: 65
+[00.25.26] [I] Farm >> Main > Hunt > Total Hunt: 68
+[00.25.28] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.25.30] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.25.30] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.25.36] [I] Farm >> Main > Use > lootbox
+[00.25.47] [I] Farm >> Main > Inventory > Paused: false
+[00.25.48] [I] Farm >> Main > Battle > Total Battle: 66
+[00.26.04] [I] Farm >> Main > Hunt > Total Hunt: 69
+[00.26.04] [W] Farm >> Main > Hunt > Missing gems: gem1
+[00.26.06] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.26.06] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.26.12] [I] Farm >> Main > Use > use 53 
+[00.26.20] [I] Farm >> Main > Inventory > Paused: false
+[00.26.31] [I] Farm >> Main > Hunt > Total Hunt: 70
+[00.26.32] [I] Farm >> Main > Battle > Total Battle: 67
+[00.26.33] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.26.59] [I] Farm >> Main > Battle > Total Battle: 68
+[00.27.04] [I] Farm >> Main > Hunt > Total Hunt: 71
+[00.27.06] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.27.18] [I] Farm >> Main > Battle > Total Battle: 69
+[00.27.31] [I] Farm >> Main > Hunt > Total Hunt: 72
+[00.27.34] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.27.50] [I] Farm >> Main > Battle > Total Battle: 70
+[00.27.57] [I] Farm >> Main > Hunt > Total Hunt: 73
+[00.27.59] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.28.17] [I] Farm >> Main > Hunt > Total Hunt: 74
+[00.28.20] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.28.20] [I] Farm >> Main > Battle > Total Battle: 71
+[00.28.38] [W] Bot >> Main > Cache > Cleared oldest 85% of message cache for [sinuok__25434].
+[00.28.45] [I] Farm >> Main > Hunt > Total Hunt: 75
+[00.28.46] [I] Farm >> Main > Battle > Total Battle: 72
+[00.28.48] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.29.04] [I] Farm >> Main > Battle > Total Battle: 73
+[00.29.20] [I] Farm >> Main > Hunt > Total Hunt: 76
+[00.29.23] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.29.23] [I] Farm >> Main > Battle > Total Battle: 74
+[00.29.42] [I] Farm >> Main > Battle > Total Battle: 75
+[00.29.43] [I] Farm >> Main > Hunt > Total Hunt: 77
+[00.29.46] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.30.01] [I] Farm >> Main > Pray > Total prayed time: 8
+[00.30.04] [I] Farm >> Main > Battle > Total Battle: 76
+[00.30.07] [I] Farm >> Main > Hunt > Total Hunt: 78
+[00.30.10] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.30.27] [I] Farm >> Main > Battle > Total Battle: 77
+[00.30.38] [I] Farm >> Main > Hunt > Total Hunt: 79
+[00.30.40] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.30.50] [I] Farm >> Main > Battle > Total Battle: 78
+[00.31.09] [I] Farm >> Main > Hunt > Total Hunt: 80
+[00.31.12] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.31.13] [I] Farm >> Main > Battle > Total Battle: 79
+[00.31.41] [I] Farm >> Main > Battle > Total Battle: 80
+[00.31.43] [I] Farm >> Main > Hunt > Total Hunt: 81
+[00.31.48] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.32.04] [I] Farm >> Main > Battle > Total Battle: 81
+[00.32.06] [I] Farm >> Main > Hunt > Total Hunt: 82
+[00.32.09] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.32.27] [I] Farm >> Main > Battle > Total Battle: 82
+[00.32.38] [I] Farm >> Main > Hunt > Total Hunt: 83
+[00.32.42] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.32.45] [I] Farm >> Main > Battle > Total Battle: 83
+[00.32.59] [I] Farm >> Main > Hunt > Total Hunt: 84
+[00.33.01] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.33.14] [I] Farm >> Main > Battle > Total Battle: 84
+[00.33.28] [I] Farm >> Main > Hunt > Total Hunt: 85
+[00.33.31] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.33.35] [I] Farm >> Main > Battle > Total Battle: 85
+[00.33.38] [W] Bot >> Main > Cache > Cleared oldest 85% of message cache for [sinuok__25434].
+[00.33.59] [I] Farm >> Main > Battle > Total Battle: 86
+[00.34.00] [I] Farm >> Main > Hunt > Total Hunt: 86
+[00.34.03] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.34.26] [I] Farm >> Main > Battle > Total Battle: 87
+[00.34.28] [I] Farm >> Main > Hunt > Total Hunt: 87
+[00.34.31] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.34.58] [I] Farm >> Main > Battle > Total Battle: 88
+[00.35.00] [I] Farm >> Main > Hunt > Total Hunt: 88
+[00.35.02] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.35.22] [I] Farm >> Main > Battle > Total Battle: 89
+[00.35.26] [I] Farm >> Main > Hunt > Total Hunt: 89
+[00.35.29] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.35.32] [I] Farm >> Main > Pray > Total prayed time: 9
+[00.35.45] [I] Farm >> Main > Battle > Total Battle: 90
+[00.35.49] [I] Farm >> Main > Hunt > Total Hunt: 90
+[00.35.51] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.36.03] [I] Farm >> Main > Battle > Total Battle: 91
+[00.36.15] [I] Farm >> Main > Hunt > Total Hunt: 91
+[00.36.16] [W] Farm >> Main > Hunt > Missing gems: gem3
+[00.36.18] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.36.18] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.36.24] [I] Farm >> Main > Use > use 69 
+[00.36.32] [I] Farm >> Main > Inventory > Paused: false
+[00.36.36] [I] Farm >> Main > Hunt > Total Hunt: 92
+[00.36.39] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.36.43] [I] Farm >> Main > Battle > Total Battle: 92
+[00.37.06] [I] Farm >> Main > Hunt > Total Hunt: 93
+[00.37.09] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.37.10] [I] Farm >> Main > Battle > Total Battle: 93
+[00.37.40] [I] Farm >> Main > Hunt > Total Hunt: 94
+[00.37.42] [I] Farm >> Main > Battle > Total Battle: 94
+[00.37.45] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.38.06] [I] Farm >> Main > Hunt > Total Hunt: 95
+[00.38.08] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.38.13] [I] Farm >> Main > Battle > Total Battle: 95
+[00.38.31] [I] Farm >> Main > Battle > Total Battle: 96
+[00.38.36] [I] Farm >> Main > Hunt > Total Hunt: 96
+[00.38.38] [W] Bot >> Main > Cache > Cleared oldest 85% of message cache for [sinuok__25434].
+[00.38.39] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.38.50] [I] Farm >> Main > Battle > Total Battle: 97
+[00.39.11] [I] Farm >> Main > Hunt > Total Hunt: 97
+[00.39.13] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.39.14] [I] Farm >> Main > Battle > Total Battle: 98
+[00.39.35] [I] Farm >> Main > Hunt > Total Hunt: 98
+[00.39.38] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.39.45] [I] Farm >> Main > Battle > Total Battle: 99
+[00.39.54] [I] Farm >> Main > Hunt > Total Hunt: 99
+[00.40.01] [E] Farm >> Main > Hunt > Couldn't retrieve hunting result!
+[00.40.02] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.40.16] [I] Farm >> Main > Battle > Total Battle: 100
+[00.40.19] [I] Farm >> Main > Hunt > Total Hunt: 100
+[00.40.22] [W] Farm >> Main > Hunt > Missing gems: gem4
+[00.40.24] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.40.24] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.40.32] [I] Farm >> Main > Inventory > Paused: false
+[00.40.34] [I] Farm >> Main > Battle > Total Battle: 101
+[00.40.50] [I] Farm >> Main > Pray > Total prayed time: 10
+[00.40.51] [I] Farm >> Main > Hunt > Total Hunt: 101
+[00.40.51] [W] Farm >> Main > Hunt > Missing gems: gem4
+[00.40.53] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.40.54] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.40.55] [I] Farm >> Main > Battle > Total Battle: 102
+[00.41.03] [I] Farm >> Main > Inventory > Paused: false
+[00.41.10] [I] Farm >> Main > Hunt > Total Hunt: 102
+[00.41.11] [W] Farm >> Main > Hunt > Missing gems: gem4
+[00.41.13] [I] Farm >> Main > Phrases > Successfuly sent.
+[00.41.13] [I] Farm >> Main > Inventory > Paused: true! Retrieving inventory...
+[00.41.21] [I] Farm >> Main > Inventory > Paused: false
+[00.41.26] [I] Farm >> Main > Battle > Total Battle: 103
