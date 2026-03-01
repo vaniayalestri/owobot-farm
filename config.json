@@ -35,7 +35,7 @@
     },
     "extra": {
         "enable": false,
-        "token": "${DISCORD_TOKEN}",
+        "token": "",
         "userid": "",
         "commandschannelid": "",
         "huntbotchannelid": "",
